@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class BankService {
 
-    private final BalanceRepository DDDbalanceRepository;                          //инжектим бин BalanceRepository
+    private final BalanceRepository balanceRepository;                          //инжектим бин BalanceRepository
 
 //    public BankService(BalanceRepository balanceRepository) {                //вместо конструктора ставим аннотацию @AllArgsConstructor от Lombok
 //        this.balanceRepository = balanceRepository;
